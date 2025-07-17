@@ -67,4 +67,20 @@ plt.show()
 import joblib
 joblib.dump(best_model, "xgboost_lead_model.pkl")
 
+#save label encoders
+# Save label encoders
+import pickle
+
+with open("label_encoders.pkl", "wb") as f:
+    pickle.dump(label_encoders, f)
+
+import pickle
+
+with open("label_encoders.pkl", "rb") as f:
+    encoders = pickle.load(f)
+
+print("Available columns in label_encoders:", list(encoders.keys()))
+
+
+
 
