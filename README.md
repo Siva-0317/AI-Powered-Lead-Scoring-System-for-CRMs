@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is an internship work assigned by InternPro (AI/ML Domain) focused on building an AI-powered lead scoring system for CRM platforms. It uses machine learning (XGBoost) to predict the likelihood of a lead converting, based on historical CRM data. The solution includes model training, feature engineering, and a Streamlit web app for real-time lead scoring.
+This project is an internship work assigned by InternPro (AI/ML Domain) focused on building an AI-powered lead scoring system for CRM platforms. It uses machine learning (XGBoost) to predict the likelihood of a lead converting, based on historical CRM data. The solution includes model training, feature engineering, and a Streamlit web app for real-time lead scoring for CRMs.
 
 ---
 
